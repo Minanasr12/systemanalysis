@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.header{
+    
+    
+    
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 3%;
+    /* background:transparent; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo{
+    border: 2px solid black;
+   padding:9px;
+    border-radius: 50% 50%;
+    background: black;
+    font-size: 2rem;
+    color: rgb(215, 233, 235);
+    font-weight: bold;
+    cursor: default;
+    font-style: italic;
+}
+
+.navbar a{
+    font-style: italic;
+    font-size: .8rem;
+    color: rgb(238, 246, 247);
+    margin-left: 0.5rem;
+    border:2px solid rgb(6, 103, 130) ;
+    padding:9px;
+    background: transparent;
+    font-weight: 800;
+    font-size: .8rem;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(240, 238, 238);
+    transition: .5s ease;
+
+
+}
+.navbar a:hover{
+    border: 2px solid rgb(21, 22, 22);
+    color: black;
+    background:rgb(67, 162, 188);
+    transform: scale(1.02);
+
+
+}
+.services h2 {
+    margin-bottom: 5rem;
+}
+.object{
+    border:10px double rgb(8, 117, 189);
+
+    padding: 5px 10px;
+    position: relative;
+    bottom: 30px;
+    background: black;
+    opacity: 0.6;
+    border-radius: 1px 20px;
+    box-shadow: 0 0 60px #032033;
+}
+.object h1{
+    padding-left: 6px;
+    padding-bottom: 15px;
+
+    font-style: italic;
+    color: rgb(7, 227, 106);
+}
+.object p{
+    padding-left: 30px;
+    padding-bottom: 25px;
+
+    line-height: 30px;
+
+    font-style: italic;
+    color: aliceblue;
+}
+
+
+
+
+
+.our h1{
+    border: 4px dotted rgb(6, 144, 135) ;
+    box-shadow: 0 0 20px black;
+    color: rgb(5, 105, 107);
+    border-radius: 1px 15px;
+    width: 225px;
+    position: relative;
+    left: 450px;
+    bottom: 30px;
+    padding: 5px;
+}
+.contact h1{
+    border: 4px dotted rgb(6, 144, 135) ;
+    box-shadow: 0 0 20px black;
+    color: rgb(5, 105, 107);
+    border-radius: 1px 15px;
+    width: 225px;
+    position: relative;
+    left: 430px;
+    top: 20px;
+    padding: 5px;
+
+}
+.services_contain{
+    border:  2px solid rgb(10, 8, 8);
+    box-shadow: 0 0 40px black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    background-image: linear-gradient(180deg, rgb(130, 121, 130), rgb(158, 168, 168));
+
+
+}
+.services_contain .services_box{
+    flex: 1 1 30rem;
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+    
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, rgb(16, 15, 16), rgb(29, 29, 29));
+    border: 9px double rgb(5, 118, 171);
+
+    box-shadow: 0 0 40px rgb(9, 37, 42);
+    transition: 1s ease;
+    
+}
+.services_box i{
+    color: rgb(244, 250, 250);
+    font-size: 4rem;
+    
+}
+.services_box h3{
+    color: rgb(8, 101, 168);
+
+    font-size: 2rem;
+    font-style: italic;
+
+}
+.services_box p{
+    color:white;
+
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 1rem 0 1rem;
+}
+.services_box span{
+    color:rgb(9, 220, 51) ;
+}
+
+/* .services_contain .services_box:hover{
+    
+    border:3px dotted aqua;
+    transform: scale(1.02);
+    background-image: linear-gradient(180deg,rgb(27, 23, 27), rgb(240, 11, 53));
+
+} */
+
+
+.btn{
+    border: 9px double rgb(8, 163, 215);
+    padding: 4px 6px;
+    border-radius: 1px 12px;
+    box-shadow: 0 0 7px rgb(18, 69, 78); 
+    color:wheat;
+    background: rgb(8, 106, 142);
+}
+.btn:hover{
+    background: rgb(108, 218, 243);
+    color: black;
+
+
+}
+
+.photo img{
+    width: 100%;
+    height: 290px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 40px black;
+
+}
+.photo h1{
+    border:4px solid rgb(54, 4, 49) ;
+    border-bottom: pink;
+    border-top: pink;
+    opacity: 0.8;
+    width: 320px;
+    border-radius: 1px 20px;
+    background: transparent;
+    box-shadow: 0 0 20px rgb(242, 247, 242);
+    font-style: italic;
+ padding: 20px; 
+ font-weight: 700;
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+    color: rgb(43, 42, 42);
+}
+
+.footer{
+    position: relative;
+    bottom: 50px;
+}
+.footer img{
+
+    border-top: 3px solid rgb(18, 19, 19);
+
+    border-radius: 20px;
+    box-shadow: 0 0 60px black;
+    width: 100%;
+    height: 100px;
+}
+.footer i{
+    border: 2px solid rgb(242, 232, 232);
+    position: relative;
+    top: 80px;
+    left: 250px;
+    padding: 7px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    color:rgb(235, 239, 241);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(178, 208, 244);
+}
+.services_box video{
+    width: 500px;
+    height: 300px;
+}
+.services_box h1{
+    color: aliceblue;
+}
+.chapter{
+
+    width: 100%;
+    padding: 2rem 3%;
+    /* background:transparent; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+    background:url("luke-chesser-3rWagdKBF7U-unsplash.jpg");
+    border-radius: 10px;
+    box-shadow: 0 0 60px black;
+    border:5px double rgb(11, 126, 183) ;
+    border-top: white;
+
+    position: relative;
+    bottom: 50px;
+}
+
+.chapter a{
+    font-style: italic;
+    font-size: .9rem;
+    color:rgb(17, 16, 16);
+    margin-left: 0.5rem;
+    
+    padding:8px;
+    border:3px solid rgb(54, 4, 49) ;
+    border-right: pink;
+    border-top: pink;
+    font-weight: 800;
+    font-size: .9rem;
+    background: rgb(46, 168, 103);
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(240, 238, 238);
+    transition: .5s ease;
+    
+
+
+}
+.chapter a:hover{
+    border: 2px solid rgb(21, 22, 22);
+    color: rgb(241, 238, 238);
+    background:rgb(16, 16, 16);
+    transform: scale(1.02);
+
+    
+}
+
+
+
+
+@media(max-width:900px) {
+    .photo img{
+        width: 100%;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 0 0 40px;
+    
+    
+}
+
+.photo h1{
+    border:2px solid rgb(54, 4, 49) ;
+    border-bottom: pink;
+    border-left: pink;
+    background:transparent;
+    width: 320px;
+    border-radius:  20px;
+    box-shadow: 0 0 20px rgb(242, 247, 242);
+    font-style: italic;
+    font-weight: 800;
+    padding: 20px; 
+    position: relative; 
+    bottom: 200px;
+    left: 110px;
+    color: rgb(51, 51, 51);
+    
+
+    
+}
+.our h1{
+    border: 4px dotted  rgb(6, 144, 135);
+  box-shadow: 0 0 20px black;
+    color: rgb(5, 105, 107);
+    border-radius: 1px 15px;
+    width: 225px;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+    padding: 5px;
+}
+.footer{
+    position: relative;
+    bottom: 60px;
+}
+.footer img{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+    width: 100%;
+    height: 100px;
+}
+.footer i{
+    border: 2px solid rgb(242, 232, 232);
+    position: relative;
+    bottom: 120px;
+    left:130px;
+    padding: 7px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 30px;
+    color:rgb(235, 239, 241);
+ border-radius: 10px  ;
+    box-shadow: 0 0 15px rgb(247, 241, 242);
+}
+.contact h1{
+    border: 4px dotted rgb(6, 144, 135) ;
+    box-shadow: 0 0 20px black;
+    color: rgb(5, 105, 107);
+    border-radius: 1px 15px;
+
+    width: 180px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    padding: 5px;
+
+
+}
+.navbar a{
+    font-style: italic;
+    font-size: .8rem;
+    color:white;
+    margin-left: 0.5rem;
+    border:2px solid rgb(6, 103, 130) ;
+    padding:6px;
+    
+    font-weight: 800;
+    font-size: .8rem;
+
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(240, 238, 238);
+    transition: .5s ease;
+
+
+}
+.logo{
+    font-size: 1.8rem;
+    color:white;
+    font-weight:bold;
+    cursor: default;
+    font-style: italic;
+}
+.chapter{
+
+    width: 100%;
+    padding: 2rem 3%;
+    /* background:transparent; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+    background:url("luke-chesser-3rWagdKBF7U-unsplash.jpg");
+    border-radius: 10px;
+    box-shadow: 0 0 60px black;
+    border:5px double rgb(11, 126, 183) ;
+    border-top: white;
+
+    position: relative;
+    bottom: 50px;
+}
+
+.chapter a{
+    font-style: italic;
+    font-size: .9rem;
+    color:rgb(17, 16, 16);
+    margin-left: 0.1rem;
+    
+
+    padding:8px;
+    border:3px solid rgb(54, 4, 49) ;
+    border-right: pink;
+    border-top: rgb(247, 201, 205);
+    font-weight: 900;
+    font-size: .6rem;
+    background: rgb(156, 203, 172);
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(222, 179, 226);
+    transition: .5s ease;
+    
+
+
+}
+.chapter a:hover{
+    border: 2px solid rgb(21, 22, 22);
+    color: rgb(241, 238, 238);
+    background:rgb(16, 16, 16);
+    transform: scale(1.02);
+
+
+}
+
+
+}
